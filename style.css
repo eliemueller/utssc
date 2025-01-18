@@ -1,0 +1,189 @@
+body {
+    background-color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: white;
+    text-decoration: none;
+    padding: 1% 2%;
+    border-radius: 30px;
+    color: navy;
+}
+
+h2 {
+    text-align: center; 
+    font-size: 70;
+    vertical-align: middle;
+    padding: 2%; 
+    white-space: nowrap;
+    margin: 0;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+}
+
+footer {
+
+    text-align: center;
+    padding-top: 30px;
+    font-size: small;
+}
+
+video {
+    position: relative;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    opacity: .35;
+}
+
+.centex {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bucket {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+p {
+    height: auto;
+    width: auto;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    width: 400px;
+    height: 375px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+div.gallery img {
+    height: 200px;
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    text-wrap: auto;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+div.scroll {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    text-align: center;
+}
+
+div.contactus {
+    text-wrap: auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 40%;
+    transform: translate(75%);
+    line-height: 1.6;
+    padding-bottom: 5%;
+}
+
+.a {
+    background-image: url(assets/footer-hero-big.jpg);
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.b {
+    font-size: 20px;
+    background-color: steelblue;
+    color: black;
+    margin: 0;
+}
+
+div.c {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.d {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    background-image: url(assets/wintry-snow-backcountry-skiiing-2068298.jpg);
+    color: white;
+    margin: 0;
+}
+
+hr {
+    width: 75%;
+    height: 10px;
+    background-color: skyblue;
+    color: skyblue;
+    display: block;
+    border-radius: 5px;
+}
+
+.cenimage {
+    text-align: center;
+}
+
+.np {
+    color: black;
+     background-color: transparent; 
+     text-decoration: underline
+}
+
+.e {
+    margin: 4px 0 0 4px;
+    box-shadow: 0 0 0 4px black;
+    width: 50%;
+}
+
+.column {
+    flex: 50%;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex: 50%;
+}
+
+table, th, td {
+    border: black solid 1px;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
