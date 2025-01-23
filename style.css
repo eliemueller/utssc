@@ -13,6 +13,11 @@ a:link, a:visited {
     color: navy;
 }
 
+h1 {
+    color:black;
+    text-align: center;
+}
+
 h2 {
     text-align: center; 
     font-size: 70;
@@ -22,13 +27,21 @@ h2 {
     margin: 0;
 }
 
-h1 {
-    color:black;
-    text-align: center;
+p {
+    height: auto;
+    width: auto;
+}
+
+hr {
+    width: 75%;
+    height: 10px;
+    background-color: skyblue;
+    color: skyblue;
+    display: block;
+    border-radius: 5px;
 }
 
 footer {
-
     text-align: center;
     padding-top: 30px;
     font-size: small;
@@ -42,7 +55,30 @@ video {
     min-width: 100%;
     min-height: 100%;
     width: 100%;
-    opacity: .35;
+    opacity: .50;
+}
+
+table, th, td {
+    border: black solid 1px;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+.nohighlight:hover {
+    background-color: transparent;
+}
+
+.bucket {
+    position: relative;
+    display: inline-block;
+    margin: 0;
 }
 
 .centex {
@@ -54,17 +90,6 @@ video {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-}
-
-.bucket {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-}
-
-p {
-    height: auto;
-    width: auto;
 }
 
 div.gallery {
@@ -140,19 +165,6 @@ div.d {
     margin: 0;
 }
 
-hr {
-    width: 75%;
-    height: 10px;
-    background-color: skyblue;
-    color: skyblue;
-    display: block;
-    border-radius: 5px;
-}
-
-.cenimage {
-    text-align: center;
-}
-
 .np {
     color: black;
      background-color: transparent; 
@@ -165,6 +177,10 @@ hr {
     width: 50%;
 }
 
+.cenimage {
+    text-align: center;
+}
+
 .column {
     flex: 50%;
     align-items: center;
@@ -173,17 +189,4 @@ hr {
 .row {
     display: flex;
     flex: 50%;
-}
-
-table, th, td {
-    border: black solid 1px;
-    border-collapse: collapse;
-    padding: 10px;
-    width: 80%;
-    margin: 0 auto;
-    text-align: left;
-}
-
-tr:hover {
-    background-color: #D6EEEE;
 }
