@@ -66,9 +66,13 @@ table, th, td {
     border: black solid 1px;
     border-collapse: collapse;
     padding: 10px;
+    padding-bottom: 2vw; 
+    padding-top: 2vw;
     width: 80%;
     margin: 0 auto;
     text-align: left;
+    font-size: 2vw;
+    white-space: nowrap;
 }
 
 tr:hover {
@@ -135,7 +139,7 @@ div.contactus {
     text-align: center;
     vertical-align: middle;
     width: 70%;
-    transform: translate(25%);
+    transform: translate(20%);
     line-height: 1.6;
     padding-bottom: 5%;
 }
