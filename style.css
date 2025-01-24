@@ -134,8 +134,8 @@ div.contactus {
     text-wrap: auto;
     text-align: center;
     vertical-align: middle;
-    width: 50%;
-    transform: translate(50%);
+    width: 70%;
+    transform: translate(25%);
     line-height: 1.6;
     padding-bottom: 5%;
 }
