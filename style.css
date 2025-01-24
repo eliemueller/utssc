@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     text-align: center; 
-    font-size: 70;
+    font-size: 6vw;
     vertical-align: middle;
     padding: 2%; 
     white-space: nowrap;
@@ -31,6 +31,9 @@ h2 {
 p {
     height: auto;
     width: auto;
+    font-size: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 hr {
@@ -131,8 +134,8 @@ div.contactus {
     text-wrap: auto;
     text-align: center;
     vertical-align: middle;
-    width: 40%;
-    transform: translate(75%);
+    width: 50%;
+    transform: translate(50%);
     line-height: 1.6;
     padding-bottom: 5%;
 }
