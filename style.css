@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     text-align: center; 
-    font-size: 6vw;
+    font-size: 28px; /* Changed from 6vw */
     vertical-align: middle;
     padding: 2%; 
     white-space: nowrap;
@@ -31,7 +31,7 @@ h2 {
 p {
     height: auto;
     width: auto;
-    font-size: 2vw;
+    font-size: 16px; /* Changed from 2vw */
     padding-left: 2vw;
     padding-right: 2vw;
 }
@@ -71,7 +71,7 @@ table, th, td {
     width: 80%;
     margin: 0 auto;
     text-align: left;
-    font-size: 2vw;
+    font-size: 16px; /* Changed from 2vw */
     white-space: nowrap;
 }
 
