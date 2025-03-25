@@ -247,3 +247,19 @@ div.d {
     border-radius: 6px;
   }
 }
+
+/* Show only one version of trips depending on screen size */
+@media screen and (max-width: 768px) {
+  table {
+    display: none;
+  }
+  .mobile-trips {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-trips {
+    display: none;
+  }
+}
