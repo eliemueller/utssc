@@ -204,3 +204,14 @@ div.d {
     display: flex;
     flex: 50%;
 }
+
+/* Adjust homepage title and subtitle for desktop screens */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    div.c {
+        font-size: 20px;
+    }
+}
