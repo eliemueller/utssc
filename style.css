@@ -15,9 +15,8 @@ a:link, a:visited {
 }
 
 h1 {
-    color: black;
+    color:black;
     text-align: center;
-    font-size: 6vw; /* Responsive base font size for mobile */
 }
 
 h2 {
