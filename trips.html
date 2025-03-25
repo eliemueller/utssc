@@ -14,6 +14,47 @@
     </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <style>
+      @media screen and (max-width: 768px) {
+        table, thead, tbody, th, td, tr {
+          display: block;
+          width: 100%;
+        }
+
+        table {
+          border: none;
+        }
+
+        thead {
+          display: none;
+        }
+
+        tr {
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          padding: 10px;
+        }
+
+        td {
+          display: flex;
+          justify-content: space-between;
+          padding: 8px 12px;
+          border: none;
+          border-bottom: 1px solid #eee;
+        }
+
+        td:last-child {
+          border-bottom: none;
+        }
+
+        td::before {
+          content: attr(data-label);
+          font-weight: bold;
+        }
+      }
+    </style>
 </head>
 
 <body>
@@ -44,6 +85,7 @@
 
 <div style="text-align: center;">
     <table>
+        <thead>
         <tr>
             <th>Trip Date</th>
             <th>Trip Name</th>
@@ -54,45 +96,47 @@
             <th>Status</th>
             <th>Register</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
-            <td>Mar 29</td>
-            <td>Blue Mountain Retro Pond Skim</td>
-            <td>56</td>
-            <td>Mar 9</td>
-            <td>Mar 17</td>
-            <td>Mar 26</td>
-            <td>Open</td>
-            <td><a href="https://form.jotform.com/250635803776261" style="background: yellow;">Signup</a></td>
+            <td data-label="Trip Date">Mar 29</td>
+            <td data-label="Trip Name">Blue Mountain Retro Pond Skim</td>
+            <td data-label="Spots Available">56</td>
+            <td data-label="Opens">Mar 9</td>
+            <td data-label="Priority Deadline">Mar 17</td>
+            <td data-label="Final Deadline">Mar 26</td>
+            <td data-label="Status">Open</td>
+            <td data-label="Register"><a href="https://form.jotform.com/250635803776261" style="background: yellow;">Signup</a></td>
         </tr>
         <tr>
-            <td>Apr 28 – May 5</td>
-            <td>Banff – 7-Day</td>
-            <td>—</td>
-            <td>Jan 25</td>
-            <td>Mar 10</td>
-            <td>Apr 5</td>
-            <td>Closed</td>
-            <td></td>
+            <td data-label="Trip Date">Apr 28 – May 5</td>
+            <td data-label="Trip Name">Banff – 7-Day</td>
+            <td data-label="Spots Available">—</td>
+            <td data-label="Opens">Jan 25</td>
+            <td data-label="Priority Deadline">Mar 10</td>
+            <td data-label="Final Deadline">Apr 5</td>
+            <td data-label="Status">Closed</td>
+            <td data-label="Register"></td>
         </tr>
         <tr>
-            <td>Apr 30 – May 5</td>
-            <td>Banff – 5-Day</td>
-            <td>2</td>
-            <td>Jan 25</td>
-            <td>Mar 10</td>
-            <td>Apr 5</td>
-            <td>Open</td>
-            <td><a href="https://form.jotform.com/243582097537264" style="background: yellow;">Signup</a></td>
+            <td data-label="Trip Date">Apr 30 – May 5</td>
+            <td data-label="Trip Name">Banff – 5-Day</td>
+            <td data-label="Spots Available">2</td>
+            <td data-label="Opens">Jan 25</td>
+            <td data-label="Priority Deadline">Mar 10</td>
+            <td data-label="Final Deadline">Apr 5</td>
+            <td data-label="Status">Open</td>
+            <td data-label="Register"><a href="https://form.jotform.com/243582097537264" style="background: yellow;">Signup</a></td>
         </tr>
-        <tr>
-
+        </tbody>
     </table>
 </div>
-   <p style="font-size: 14px; text-align: center; color: gray; margin-top: 20px;">
+
+<p style="font-size: 14px; text-align: center; color: gray; margin-top: 20px;">
   <b>Priority Deadline:</b> Book by this date to help confirm transportation and lodging. Our buses and hotels require early commitments, so we may not be able to run a trip without enough signups by this point.<br>
   <b>Final Deadline:</b> Last day to register if space remains. Pricing and logistics may change, especially for flight-based trips.
 </p>
-    
+
 <footer>
     <img src="assets/logo.png" alt="logo" style="width:20px;height:20px; vertical-align: middle;">
     Copyright © 2025 University of Toronto Ski & Snowboard Club (UTSSC).
