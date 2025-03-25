@@ -152,10 +152,16 @@ div.contactus {
 }
 
 .b {
-    font-size: 2vw;
+    font-size: 5vw; /* mobile default */
     background-color: steelblue;
     color: black;
     margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .b {
+        font-size: 20px; /* for tablets and up */
+    }
 }
 
 div.c {
