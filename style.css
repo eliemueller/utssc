@@ -203,4 +203,12 @@ div.d {
 .row {
     display: flex;
     flex: 50%;
+    
+}
+@media screen and (max-width: 767px) {
+  .b a {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+  }
 }
