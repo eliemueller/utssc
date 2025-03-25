@@ -209,10 +209,10 @@ div.d {
 /* Adjust homepage title and subtitle for desktop screens */
 @media screen and (min-width: 768px) {
     h1 {
-        font-size: 32px;
+        font-size: 32px !important;
     }
 
     div.c {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 }
