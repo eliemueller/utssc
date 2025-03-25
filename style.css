@@ -205,10 +205,23 @@ div.d {
     flex: 50%;
     
 }
+/* Fix nav tabs on mobile */
 @media screen and (max-width: 767px) {
+  .b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .b a {
     display: block;
-    padding: 10px;
+    margin: 4px 0;
+    padding: 8px 12px;
     font-size: 16px;
+    width: auto;
+  }
+
+  .b img {
+    display: none; /* Optional: hide logo image if it's making things too wide */
   }
 }
