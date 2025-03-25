@@ -206,55 +206,44 @@ div.d {
     flex: 50%;
 }
 
-/* Responsive fix for nav bar tabs on mobile */
-@media screen and (max-width: 767px) {
-  .b {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px 0;
-    gap: 8px;
-  }
-
-  .b a {
-    font-size: 14px;
-    padding: 6px 10px;
-  }
-
-  .b img {
-    max-width: 40px;
-    height: auto;
-  }
-}
-
-/* Responsive table style for mobile */
+/* 👇 Paste the new trip card styling right here */
 @media screen and (max-width: 768px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
-    width: 100%;
-  }
-
-  thead {
-    display: none; /* Hide headers in mobile */
-  }
-
-  tr {
-    margin-bottom: 20px;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
-  }
-
-  td {
+  .trip-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px auto;
+    max-width: 90%;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     text-align: left;
-    padding: 10px;
-    position: relative;
+    font-size: 15px;
   }
 
-  td::before {
-    content: attr(data-label);
-    font-weight: bold;
+  .trip-card div {
+    margin-bottom: 10px;
+  }
+
+  .trip-card strong {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    color: #222;
+  }
+
+  .trip-card span {
+    display: block;
+    padding-left: 6px;
     color: #333;
+  }
+
+  .trip-card .signup-button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
   }
 }
