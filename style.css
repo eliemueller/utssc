@@ -138,8 +138,8 @@ div.contactus {
     text-wrap: auto;
     text-align: center;
     vertical-align: middle;
-    width: 90%; /* Wider for smaller screens */
-    margin: 0 auto; /* Center it */
+    width: 70%;
+    transform: translate(20%);
     line-height: 1.6;
     padding-bottom: 5%;
 }
@@ -152,16 +152,10 @@ div.contactus {
 }
 
 .b {
+    font-size: 2vw;
     background-color: steelblue;
     color: black;
     margin: 0;
-}
-
-/* Shrink tab font ONLY on desktop or larger screens */
-@media screen and (min-width: 768px) {
-    .b {
-        font-size: 20px;
-    }
 }
 
 div.c {
@@ -203,25 +197,4 @@ div.d {
 .row {
     display: flex;
     flex: 50%;
-    
-}
-/* Fix nav tabs on mobile */
-@media screen and (max-width: 767px) {
-  .b {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .b a {
-    display: block;
-    margin: 4px 0;
-    padding: 8px 12px;
-    font-size: 16px;
-    width: auto;
-  }
-
-  .b img {
-    display: none; /* Optional: hide logo image if it's making things too wide */
-  }
 }
