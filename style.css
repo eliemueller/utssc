@@ -205,3 +205,24 @@ div.d {
     display: flex;
     flex: 50%;
 }
+
+/* Responsive fix for nav bar tabs on mobile */
+@media screen and (max-width: 767px) {
+  .b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 8px;
+  }
+
+  .b a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .b img {
+    max-width: 40px;
+    height: auto;
+  }
+}
